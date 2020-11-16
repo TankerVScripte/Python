@@ -25,6 +25,7 @@ counter = 0
 def bad_password_generator():
     global counter
     password = popular_passwords[counter]
+
     counter += 1
     if counter >= len(popular_passwords):
         counter = 0
